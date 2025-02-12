@@ -28,7 +28,6 @@
 
 class Demo:
     def add(self):
-        
         self.a=10
         b=20
         print(self.a+b)
@@ -37,5 +36,6 @@ class Demo:
         print(self.a)
 
 demo=Demo()
+demo.add()
 demo.dis()
 
